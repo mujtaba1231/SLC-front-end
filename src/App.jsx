@@ -11,7 +11,7 @@ import ResourcesPage from "./pages/Resources";
 import Communities from "./pages/Communities";
 import CommunityDetails from "./pages/CommunitiesDetails";
 import EditCommunity from "./pages/EditCommunity";
-import Blogs from "./pages/blogs";
+import Blogs from "./pages/Blogs";
 import WriteBlog from "./pages/Write";
 import BlogDetail from "./pages/BlogDetail";
 import { ToastContainer } from 'react-toastify';
