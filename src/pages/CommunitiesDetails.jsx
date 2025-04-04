@@ -7,6 +7,7 @@ import {
   PhoneIcon,
   EnvelopeIcon,
 } from "@heroicons/react/24/outline"; // Updated imports for Heroicons v2
+import { BASE_URL } from "../config/url";
 
 const CommunityDetails = () => {
   const { id } = useParams();
@@ -18,7 +19,7 @@ const CommunityDetails = () => {
     const fetchCommunity = async () => {
       try {
         const response = await axios.get(
-          `http://localhost:5000/api/communities/${id}`
+          `${BASE_URL}/api/communities/${id}`
         );
         setCommunity(response.data);
         setLoading(false);
